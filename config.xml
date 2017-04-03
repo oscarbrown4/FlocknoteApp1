@@ -128,7 +128,7 @@
         <icon   src="www/res/icon/windows/Wide310x150Logo.scale-240.png"     platform="windows"   width="744"  height="360" />
         <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows"   width="1152" height="1920" />
     </platform>
-
+	
     <!--
         Define access to external domains.
 
