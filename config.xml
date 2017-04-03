@@ -6,14 +6,14 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Flocknote</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+       	An app for accessing Flocknote.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://flocknote.com" email="help@flocknote.com">
+        Flocknote Engineers
     </author>
 
     <!-- Define the main entry-point to the application -->
@@ -99,12 +99,6 @@
         <splash src="www/res/screen/ios/Default-Portrait~ipad.png"      platform="ios" width="768"  height="1024" />
         <splash src="www/res/screen/ios/Default@2x~iphone.png"          platform="ios" width="640"  height="960" />
         <splash src="www/res/screen/ios/Default~iphone.png"             platform="ios" width="320"  height="480" />
-    </platform>
-
-    <platform name="wp8">
-        <icon   src="www/res/icon/wp8/ApplicationIcon.png"   platform="wp8" width="99"  height="99" />
-        <icon   src="www/res/icon/wp8/Background.png"        platform="wp8" width="159" height="159" />
-        <splash src="www/res/screen/wp8/screen-portrait.jpg" platform="wp8" width="768" height="1280" />
     </platform>
 
     <platform name="windows">
