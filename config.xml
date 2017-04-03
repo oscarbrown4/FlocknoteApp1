@@ -30,6 +30,15 @@
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
 
     <!-- Plugins -->
+    	<feature name="StatusBar">
+            <param name="ios-package" value="CDVStatusBar" onload="true" />
+        </feature>
+
+<preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#000000" />
+        <preference name="StatusBarStyle" value="lightcontent" />
+    
+    
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera"              source="npm" spec="~2.4.0" />
@@ -157,11 +166,8 @@
     <allow-intent href="geo:*" />
     <allow-navigation href="https://ob.flocknote.com/*" />
     
-	<feature name="StatusBar">
-            <param name="ios-package" value="CDVStatusBar" onload="true" />
-        </feature>
-    	<preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#1E292E" />
+
+
     
     
     <platform name="android">
