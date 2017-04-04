@@ -1,12 +1,17 @@
 body {
 	background: #000;
 }
-#flocknote_frame {
-	position: fixed;
+#frame_around {
+	position: absolute;
 	border: none;
 	left:0;
 	right:0;
 	top:40px;
 	bottom:0;
-	border-radius: 8px; 
+	border-radius: 8px;
+	overflow: hidden;
+}
+#flocknote_frame {
+		overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 }
