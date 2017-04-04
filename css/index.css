@@ -6,12 +6,13 @@ body {
 	border: none;
 	left:0;
 	right:0;
-	top:40px;
+	top:20px;
 	bottom:0;
-	border-radius: 8px;
-	overflow: hidden;
+	border-radius: 6px;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 #flocknote_frame {
-		overflow: scroll;
+	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 }
