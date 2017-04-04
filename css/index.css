@@ -12,9 +12,3 @@ body {
 	overflow: hidden;
 	background: yellow;
 }
-#flocknote_frame {
-	position: absolute;
-	
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch;
-}

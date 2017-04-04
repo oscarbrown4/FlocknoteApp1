@@ -30,13 +30,9 @@
     <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
 
     <!-- Plugins -->
-    	<feature name="StatusBar">
-            <param name="ios-package" value="CDVStatusBar" onload="true" />
-        </feature>
-
-<preference name="StatusBarOverlaysWebView" value="false" />
-        <preference name="StatusBarBackgroundColor" value="#000000" />
-        <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+<preference name="StatusBarBackgroundColor" value="#165769" /> <!--Your color value will go here-->
+<preference name="StatusBarStyle" value="lightcontent" />
     
     
     <!-- Core plugins -->
