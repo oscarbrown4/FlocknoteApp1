@@ -1,11 +1,12 @@
 body {
-	background:white;
-	font-size: 32px;
-	background: -moz-linear-gradient(-45deg, rgba(78,162,198,0.8) 0%, rgba(149,228,209,0.8) 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(78,162,198,0.8)), color-stop(100%,rgba(149,228,209,0.8)));
-    background: -webkit-linear-gradient(-45deg, rgba(78,162,198,0.8) 0%,rgba(149,228,209,0.8) 100%);
-    background: -o-linear-gradient(-45deg, rgba(78,162,198,0.8) 0%,rgba(149,228,209,0.8) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(78,162,198,0.8) 0%,rgba(149,228,209,0.8) 100%);
-    background: linear-gradient(135deg, rgba(78,162,198,0.8) 0%,rgba(149,228,209,0.8) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804ea2c6', endColorstr='#8095e4d1',GradientType=1 );
+	background: #000;
+}
+#flocknote_frame {
+	position: fixed;
+	border: none;
+	left:0;
+	right:0;
+	top:40px;
+	bottom:0;
+	border-radius: 8px; 
 }
