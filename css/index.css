@@ -9,10 +9,12 @@ body {
 	top:20px;
 	bottom:0;
 	border-radius: 6px;
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch;
+	overflow: hidden;
+	background: yellow;
 }
 #flocknote_frame {
+	position: absolute;
+	
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 }
