@@ -9,3 +9,86 @@ body {
     background: linear-gradient(135deg, rgba(78,162,198,0.8) 0%,rgba(149,228,209,0.8) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804ea2c6', endColorstr='#8095e4d1',GradientType=1 );
 }
+#ajax_indicator_holder {
+	position: fixed;
+	bottom:50px;
+	height:42px;
+	width:400px;
+	left:50%;
+	margin-left:-200px;
+	z-index: 9999;
+	border-radius: 5px;
+	background:rgba(255,255,255,.9);
+	box-shadow: rgba(0,0,0,.4) 0 0 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #bec3c7;
+}
+#ajax_indicator {
+	border-radius: 3px;
+	position: absolute;
+	top:1px;
+	bottom:1px;
+	left:1px;
+	right:1px;
+	background: #4ea2c6;
+	background: -moz-linear-gradient(left,  #4ea2c6 20%, #95e4d1 50%, #4ea2c6 80%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(20%,#4ea2c6), color-stop(50%,#95e4d1), color-stop(80%,#4ea2c6));
+	background: -webkit-linear-gradient(left,  #4ea2c6 20%,#95e4d1 50%,#4ea2c6 80%);
+	background: -o-linear-gradient(left,  #4ea2c6 20%,#95e4d1 50%,#4ea2c6 80%);
+	background: -ms-linear-gradient(left,  #4ea2c6 20%,#95e4d1 50%,#4ea2c6 80%);
+	background: linear-gradient(to right,  #4ea2c6 20%,#95e4d1 50%,#4ea2c6 80%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ea2c6', endColorstr='#4ea2c6',GradientType=1 );
+	background-size: 600% 600%;
+	-webkit-animation:ajaxindicator 6s linear infinite;
+    -moz-animation:ajaxindicator 6s linear infinite;
+    animation:ajaxindicator 6s linear infinite;
+}
+@-moz-keyframes ajaxindicator { 
+    0%{background-position:30% 50%}
+    10%{background-position:70% 50%}
+    20%{background-position:30% 50%}
+    30%{background-position:70% 50%}
+    40%{background-position:30% 50%}
+    50%{background-position:70% 50%}
+    60%{background-position:30% 50%}
+    70%{background-position:70% 50%}
+    80%{background-position:30% 50%}
+    90%{background-position:70% 50%}
+    100%{background-position:30% 50%}
+}
+@-webkit-keyframes ajaxindicator { 
+    0%{background-position:30% 50%}
+    10%{background-position:70% 50%}
+    20%{background-position:30% 50%}
+    30%{background-position:70% 50%}
+    40%{background-position:30% 50%}
+    50%{background-position:70% 50%}
+    60%{background-position:30% 50%}
+    70%{background-position:70% 50%}
+    80%{background-position:30% 50%}
+    90%{background-position:70% 50%}
+    100%{background-position:30% 50%}
+}
+@keyframes ajaxindicator { 
+    0%{background-position:30% 50%}
+    10%{background-position:70% 50%}
+    20%{background-position:30% 50%}
+    30%{background-position:70% 50%}
+    40%{background-position:30% 50%}
+    50%{background-position:70% 50%}
+    60%{background-position:30% 50%}
+    70%{background-position:70% 50%}
+    80%{background-position:30% 50%}
+    90%{background-position:70% 50%}
+    100%{background-position:30% 50%}
+}
+
+@media screen and (max-width:440px) {
+	#ajax_indicator_holder {
+		left:40px;
+		right:40px;
+		margin-left: 0;
+		width: auto;
+	}
+}
