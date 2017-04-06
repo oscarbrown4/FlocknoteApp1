@@ -43,9 +43,12 @@
 </head>
 
 <body>
+	<div id="ajax_indicator_holder"><div id="ajax_indicator"></div></div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript">
-		window.location='https://ob.flocknote.com/login/loginFromApp';    
+	    setTimeout(function(){
+		window.location='https://ob.flocknote.com/login/loginFromApp';   
+		}, 500);
 	</script>
 </body>
 

@@ -9,7 +9,6 @@ body {
     background: linear-gradient(135deg, rgba(78,162,198,0.8) 0%,rgba(149,228,209,0.8) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804ea2c6', endColorstr='#8095e4d1',GradientType=1 );
 }
-/*
 #ajax_indicator_holder {
 	position: fixed;
 	bottom:50px;
@@ -93,4 +92,3 @@ body {
 		width: auto;
 	}
 }
-*/
