@@ -172,4 +172,9 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
+
+<gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
+    <string>To upload photos from your library to notes you send out.</string>
+</gap:config-file>
+
 </widget>
