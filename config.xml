@@ -158,8 +158,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="https://ob.flocknote.com/*" />
-    
+    <allow-navigation href="https://app.flocknote.com/*" />
+    <allow-navigation href="*" />
+	<access origin="*" />
 
 
     
