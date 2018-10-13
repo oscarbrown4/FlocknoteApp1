@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.flocknote.Flocknote"
-        version   = "2.5">
+        version   = "2.5.1">
 
     <name>Flocknote</name>
 
@@ -55,7 +55,7 @@
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.3.1" />
     <plugin name="cordova-plugin-remote-injection"    source="npm" spec="~0.5.2" />
 
-    <!-- Define app icon and splashscreen for each platform. 
+    <!-- Define app icon and splashscreen for each platform. -->
     <platform name="android">
         <icon   src="www/res/icon/android/drawable-ldpi-icon.png"               density="ldpi" />
         <icon   src="www/res/icon/android/drawable-mdpi-icon.png"               density="mdpi" />
@@ -76,7 +76,7 @@
         <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"    density="port-xxhdpi" />
         <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   density="port-xxxhdpi" />
     </platform>
-	-->
+	
     <platform name="ios">
        
         <icon   src="www/res/icon/ios/icon.png"                         platform="ios" width="57"   height="57" />
